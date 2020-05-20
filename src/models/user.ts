@@ -1,8 +1,4 @@
-interface IUser {
-  _id: string;
-  name: string;
-  age: number;
-}
+import { IUser } from "./types.ts";
 
 let user: Array<IUser> = [
   {

@@ -1,8 +1,5 @@
 import { MultiFilter } from "../helpers/index.ts";
-
-interface IOption {
-  [key: string]: any;
-}
+import { IOption } from "./types.ts";
 
 export default class Repo {
   private model: Array<{}>;

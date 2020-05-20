@@ -1,15 +1,4 @@
-interface IItem {
-  name: string;
-  cost: number;
-  quanity: number;
-}
-
-interface IOrder {
-  _id: string;
-  reference: string;
-  user: string;
-  items: Array<IItem>;
-}
+import { IOrder } from "./types.ts";
 
 let order: Array<IOrder> = [
   {

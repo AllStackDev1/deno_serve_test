@@ -1,4 +1,4 @@
-import IEndpoint from "./interface.ts";
+import { IEndpoint } from "./types.ts";
 import { UserController, OrderController } from "../controllers/index.ts";
 
 const Testing = (context: any, next: Function) => {

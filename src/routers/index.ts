@@ -4,8 +4,8 @@ import {
   Status,
 } from "https://deno.land/x/oak@v4.0.0/mod.ts";
 
+import { IEndpoint } from "./types.ts";
 import endpoints from "./endpoints.ts";
-import IEndpoint from "./interface.ts";
 
 export default class Routers extends Router {
   constructor() {

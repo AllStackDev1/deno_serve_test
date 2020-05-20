@@ -8,10 +8,8 @@ interface IMethods {
 
 type PartialRecord<K extends keyof any, T> = Partial<Record<K, T>>;
 
-interface IEndpoint {
+export interface IEndpoint {
   route: string;
   methods: Array<keyof IMethods>;
   middlewares: PartialRecord<keyof IMethods, any[]>;
 }
-
-export default IEndpoint;
