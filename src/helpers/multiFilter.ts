@@ -1,6 +1,4 @@
-interface IFilters {
-  [key: string]: string;
-}
+import { IFilters } from "./types.ts";
 
 export default (arr: Array<any>, filters: IFilters) => {
   const filterKeys = Object.keys(filters);
